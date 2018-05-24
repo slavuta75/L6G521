@@ -9,11 +9,44 @@
 import UIKit
 
 class ViewController: UIViewController {
+ 
+    // 1
+    override func awakeFromNib() {
+        super.awakeFromNib()
+        print(#function)
+    }
 
+    // 2
     override func viewDidLoad() {
         super.viewDidLoad()
+         print(#function)
         // Do any additional setup after loading the view, typically from a nib.
     }
+
+    // 3
+    override func viewWillAppear(_ animated: Bool) {
+        super.viewWillAppear(animated)
+        print(#function)
+    }
+    // 4
+    override func viewWillLayoutSubviews() {
+        super.viewWillLayoutSubviews()
+           print(#function)
+    }
+    // 5
+    override func viewDidLayoutSubviews() {
+        super.viewDidLayoutSubviews()
+           print(#function)
+    }
+    // 6
+    override func viewDidAppear(_ animated: Bool) {
+        super.viewDidAppear(animated)
+         print(#function)
+    }
+    // 7
+      
+    
+    
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
