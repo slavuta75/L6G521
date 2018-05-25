@@ -13,6 +13,8 @@
 		FE95DA5420B7097400AC8E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE95DA5320B7097400AC8E0D /* Assets.xcassets */; };
 		FE95DA5720B7097400AC8E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE95DA5520B7097400AC8E0D /* LaunchScreen.storyboard */; };
 		FE95DA6120B76AAD00AC8E0D /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE95DA6020B76AAD00AC8E0D /* AddCarViewController.swift */; };
+		FE95DA6920B7DBA400AC8E0D /* CommonManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE95DA6820B7DBA400AC8E0D /* CommonManager.swift */; };
+		FE95DA6B20B7DD0400AC8E0D /* HistoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE95DA6A20B7DD0400AC8E0D /* HistoryViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +26,8 @@
 		FE95DA5620B7097400AC8E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE95DA5820B7097400AC8E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		FE95DA6020B76AAD00AC8E0D /* AddCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
+		FE95DA6820B7DBA400AC8E0D /* CommonManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CommonManager.swift; sourceTree = "<group>"; };
+		FE95DA6A20B7DD0400AC8E0D /* HistoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +62,9 @@
 			children = (
 				FE95DA4C20B7097200AC8E0D /* AppDelegate.swift */,
 				FE95DA4E20B7097200AC8E0D /* ViewController.swift */,
+				FE95DA6820B7DBA400AC8E0D /* CommonManager.swift */,
 				FE95DA6020B76AAD00AC8E0D /* AddCarViewController.swift */,
+				FE95DA6A20B7DD0400AC8E0D /* HistoryViewController.swift */,
 				FE95DA5020B7097200AC8E0D /* Main.storyboard */,
 				FE95DA5320B7097400AC8E0D /* Assets.xcassets */,
 				FE95DA5520B7097400AC8E0D /* LaunchScreen.storyboard */,
@@ -140,6 +146,8 @@
 			files = (
 				FE95DA6120B76AAD00AC8E0D /* AddCarViewController.swift in Sources */,
 				FE95DA4F20B7097200AC8E0D /* ViewController.swift in Sources */,
+				FE95DA6920B7DBA400AC8E0D /* CommonManager.swift in Sources */,
+				FE95DA6B20B7DD0400AC8E0D /* HistoryViewController.swift in Sources */,
 				FE95DA4D20B7097200AC8E0D /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
