@@ -12,7 +12,7 @@
 		FE95DA5220B7097200AC8E0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE95DA5020B7097200AC8E0D /* Main.storyboard */; };
 		FE95DA5420B7097400AC8E0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE95DA5320B7097400AC8E0D /* Assets.xcassets */; };
 		FE95DA5720B7097400AC8E0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE95DA5520B7097400AC8E0D /* LaunchScreen.storyboard */; };
-		FE95DA5F20B712F800AC8E0D /* View.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE95DA5E20B712F800AC8E0D /* View.xib */; };
+		FE95DA6120B76AAD00AC8E0D /* AddCarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE95DA6020B76AAD00AC8E0D /* AddCarViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,7 +23,7 @@
 		FE95DA5320B7097400AC8E0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE95DA5620B7097400AC8E0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FE95DA5820B7097400AC8E0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FE95DA5E20B712F800AC8E0D /* View.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = View.xib; sourceTree = "<group>"; };
+		FE95DA6020B76AAD00AC8E0D /* AddCarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddCarViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,7 +58,7 @@
 			children = (
 				FE95DA4C20B7097200AC8E0D /* AppDelegate.swift */,
 				FE95DA4E20B7097200AC8E0D /* ViewController.swift */,
-				FE95DA5E20B712F800AC8E0D /* View.xib */,
+				FE95DA6020B76AAD00AC8E0D /* AddCarViewController.swift */,
 				FE95DA5020B7097200AC8E0D /* Main.storyboard */,
 				FE95DA5320B7097400AC8E0D /* Assets.xcassets */,
 				FE95DA5520B7097400AC8E0D /* LaunchScreen.storyboard */,
@@ -125,7 +125,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE95DA5F20B712F800AC8E0D /* View.xib in Resources */,
 				FE95DA5720B7097400AC8E0D /* LaunchScreen.storyboard in Resources */,
 				FE95DA5420B7097400AC8E0D /* Assets.xcassets in Resources */,
 				FE95DA5220B7097200AC8E0D /* Main.storyboard in Resources */,
@@ -139,6 +138,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE95DA6120B76AAD00AC8E0D /* AddCarViewController.swift in Sources */,
 				FE95DA4F20B7097200AC8E0D /* ViewController.swift in Sources */,
 				FE95DA4D20B7097200AC8E0D /* AppDelegate.swift in Sources */,
 			);

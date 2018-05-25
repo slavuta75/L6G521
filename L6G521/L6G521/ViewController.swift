@@ -55,10 +55,25 @@ class ViewController: UIViewController {
     }
     
 
+//    override func performSegue(withIdentifier identifier: String, sender: Any?) {
+//        print(identifier)
+//    }
+    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
+   //     print(segue.identifier?.description)
+        if segue.identifier! == "AddCarID" {
+           let addCar = segue.destination as? AddCarViewController
+            addCar?.racingStarted = false
+        }
+        
+    }
+    
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
-        print(#function)    }
+        print(#function)
+        
+        
+    }
 
 
 }
